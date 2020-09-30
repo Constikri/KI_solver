@@ -1,0 +1,29 @@
+﻿Der Buildvorgang wurde am 02.06.2020 00:06:42 gestartet.
+     1>Projekt "C:\Users\Constantin\source\repos\KI_solver\KI_solver\KI_solver.vcxproj" auf Knoten "2", Build Ziel(e).
+     1>InitializeBuildStatus:
+         "x64\Debug\KI_solver.tlog\unsuccessfulbuild" wird erstellt, da "AlwaysCreate" angegeben wurde.
+       ClCompile:
+         Alle Ausgaben sind aktuell.
+         E:\Programme\Visual Studio\VC\Tools\MSVC\14.16.27023\bin\HostX86\x64\CL.exe /c /ZI /JMC /nologo /W3 /WX- /diagnostics:classic /sdl /Od /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /permissive- /Zc:wchar_t /Zc:forScope /Zc:inline /Yu"stdafx.h" /Fp"x64\Debug\KI_solver.pch" /Fo"x64\Debug\\" /Fd"x64\Debug\vc141.pdb" /Gd /TP /FC /errorReport:prompt KI_solver.cpp
+         KI_solver.cpp
+     1>c:\users\constantin\source\repos\ki_solver\ki_solver\parser.cpp(60): warning C4267: "Initialisierung": Konvertierung von "size_t" nach "int", Datenverlust möglich
+       Link:
+         E:\Programme\Visual Studio\VC\Tools\MSVC\14.16.27023\bin\HostX86\x64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Constantin\source\repos\KI_solver\x64\Debug\KI_solver.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG:FASTLINK /PDB:"C:\Users\Constantin\source\repos\KI_solver\x64\Debug\KI_solver.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Constantin\source\repos\KI_solver\x64\Debug\KI_solver.lib" /MACHINE:X64 x64\Debug\KI_solver.obj
+         x64\Debug\parser.obj
+         x64\Debug\stdafx.obj
+         KI_solver.vcxproj -> C:\Users\Constantin\source\repos\KI_solver\x64\Debug\KI_solver.exe
+       FinalizeBuildStatus:
+         Die Datei "x64\Debug\KI_solver.tlog\unsuccessfulbuild" wird gelöscht.
+         Aktualisieren des Timestamps von "x64\Debug\KI_solver.tlog\KI_solver.lastbuildstate".
+     1>Die Erstellung von Projekt "C:\Users\Constantin\source\repos\KI_solver\KI_solver\KI_solver.vcxproj" ist abgeschlossen (Build Ziel(e)).
+
+Der Buildvorgang wurde erfolgreich ausgeführt.
+
+       "C:\Users\Constantin\source\repos\KI_solver\KI_solver\KI_solver.vcxproj" (Build Ziel) (1) ->
+       (ClCompile Ziel) -> 
+         c:\users\constantin\source\repos\ki_solver\ki_solver\parser.cpp(60): warning C4267: "Initialisierung": Konvertierung von "size_t" nach "int", Datenverlust möglich
+
+    1 Warnung(en)
+    0 Fehler
+
+Verstrichene Zeit 00:00:00.81
